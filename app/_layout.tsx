@@ -1,9 +1,8 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { useFonts } from 'expo-font';
-import { Slot, SplashScreen } from 'expo-router';
+import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -40,19 +39,12 @@ export default function RootLayout() {
 function RootLayoutNav() {
   return (
     <SafeAreaProvider>
-      <SafeAreaView
-        style={{
-          flex: 1,
+      <Stack
+        screenOptions={{
+          animation: 'none',
+          headerShown: false,
         }}
-      >
-        <GestureHandlerRootView
-          style={{
-            flex: 1,
-          }}
-        >
-          <Slot />
-        </GestureHandlerRootView>
-      </SafeAreaView>
+      ></Stack>
     </SafeAreaProvider>
   );
 }

@@ -37,3 +37,54 @@ npx expo start
 ```
 
 5. Let's make the best animation
+
+{
+
+        "email": "Shanna@melissa.tv",
+        "id": 2,
+        "name": "Ervin Howell",
+        "phone": "010-692-6593 x09125",
+        "username": "Antonette",
+        "website": "anastasia.net"
+    }, {
+
+        "email": "Nathan@yesenia.net",
+        "id": 3,
+        "name": "Clementine Bauch",
+        "phone": "1-463-123-4447",
+        "username": "Samantha",
+        "website": "ramiro.info"
+    }, {
+
+        "email": "Julianne.OConner@kory.org",
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "phone": "493-170-9623 x156",
+        "username": "Karianne",
+        "website": "kale.biz"
+    }, {
+
+        "email": "Lucio_Hettinger@annie.ca",
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "phone": "(254)954-1289",
+        "username": "Kamren",
+        "website": "demarco.info"
+    }, {
+
+        "email": "Karley_Dach@jasper.info",
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "phone": "1-477-935-8478 x6430",
+        "username": "Leopoldo_Corkery",
+        "website": "ola.org"
+    },
+    {
+
+        "email": "Rey.Padberg@karina.biz",
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "phone": "024-648-3804",
+        "username": "Moriah.Stanton",
+        "website": "ambrose.net"
+    }
